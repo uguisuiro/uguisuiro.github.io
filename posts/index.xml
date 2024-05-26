@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on uguisuiro</title>
+    <link>https://uguisuiro.github.io/posts/</link>
+    <description>Recent content in Posts on uguisuiro</description>
+    <image>
+      <title>uguisuiro</title>
+      <url>https://uguisuiro.github.io/images/papermod-cover.png</url>
+      <link>https://uguisuiro.github.io/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.119.0</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 22 May 2024 13:09:25 +0900</lastBuildDate>
+    <atom:link href="https://uguisuiro.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World!</title>
+      <link>https://uguisuiro.github.io/posts/post1/helloworld/</link>
+      <pubDate>Wed, 22 May 2024 13:09:25 +0900</pubDate>
+      <guid>https://uguisuiro.github.io/posts/post1/helloworld/</guid>
+      <description>&lt;p&gt;ブログをはじめました。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

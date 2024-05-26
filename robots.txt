@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://uguisuiro.github.io/sitemap.xml
