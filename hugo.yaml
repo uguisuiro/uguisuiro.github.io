@@ -1,0 +1,65 @@
+baseURL: https://uguisuiro.github.io/
+title: uguisuiro
+theme: ["PaperMod"]
+
+languageCode: "ja"
+defaultContentLanguage: "ja"
+HasCJKLanguage: true
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+# googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - name: 記事
+      url: posts/
+      weight: 5
+    - name: タグ
+      url: tags/
+      weight: 10
+    - name: このサイトについて
+      url: about/
+    - name: ポリシー
+      url: policy/
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "uguisuiro"
+  author: uguisuiro
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  images: ["images/papermod-cover.png"]
